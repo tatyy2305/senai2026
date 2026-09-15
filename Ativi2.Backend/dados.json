@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "nome":"6767",
+        "vitorias":5,
+        "derrotas":1,
+        "empates":0
+        
+    },
+      {
+        "id":2,
+        "nome":"Flamingo",
+        "vitorias":1,
+        "derrotas":4,
+        "empates":3
+    },
+      {
+        "id":3,
+        "nome":"Coringa",
+        "vitorias":2,
+        "derrotas":2,
+        "empates":2
+    }
+]
