@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa de Loja</title>
+</head>
+
+<body>
+
+    <h1>Caixa de Loja</h1>
+
+    <label>Preço do produto:</label>
+    <input type="number" id="preco" step="0.01">
+
+    <br><br>
+
+    <label>Quantidade:</label>
+    <input type="number" id="quantidade">
+
+    <br><br>
+
+    <label>Forma de pagamento:</label>
+
+    <select id="pagamento">
+        <option value="1">Dinheiro</option>
+        <option value="2">Pix</option>
+        <option value="3">Cartão</option>
+    </select>
+
+    <br><br>
+
+    <label>Valor recebido:</label>
+    <input type="number" id="valorRecebido" step="0.01">
+
+    <br><br>
+
+    <button onclick="calcularCompra()">
+        Finalizar Compra
+    </button>
+
+    <h2>Resultado</h2>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
