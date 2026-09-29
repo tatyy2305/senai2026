@@ -56,7 +56,7 @@ Post patrimônio:   http://localhost:3000/patrimonio
 Get patrimônios:   http://localhost:3000/patrimonio
 Put patrimônio:    http://localhost:3000/patrimonio/:id
 Delete patrimônio: http://localhost:3000/patrimonio/:id
-## Rotas da API
+
 ```
 ### GET — Consultar patrimônios
 
