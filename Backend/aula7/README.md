@@ -150,29 +150,3 @@ Patrimônio atualizado com sucesso!
 ## Dados cadastrados
 
 <img width="1387" height="701" alt="Captura de tela 2026-09-29 095258" src="https://github.com/user-attachments/assets/20288bf3-85d4-4b7b-a92a-c6b624c845ae" />
-
-## Testando a API
-
-**Consultar:**
-
-```http
-GET http://127.0.0.1:3000/
-```
-
-**Cadastrar:**
-
-```http
-POST http://127.0.0.1:3000/
-```
-
-**Alterar:**
-
-```http
-PUT http://127.0.0.1:3000/1
-```
-
-**Excluir:**
-
-```http
-DELETE http://127.0.0.1:3000/4
-```
