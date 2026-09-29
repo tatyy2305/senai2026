@@ -180,26 +180,7 @@ PUT http://127.0.0.1:3000/1
 DELETE http://127.0.0.1:3000/4
 ```
 
-## ⚙️ Scripts disponíveis
 
-No arquivo `package.json`, o projeto possui o seguinte comando:
-
-```bash
-npm run dev
-```
-
-Esse comando inicia o servidor Node.js.
-
-## Objetivo do projeto
-
-O objetivo deste projeto é praticar o desenvolvimento de uma **API REST**, utilizando os principais métodos HTTP:
-
-* `GET` — consultar dados
-* `POST` — cadastrar dados
-* `PUT` — alterar dados
-* `DELETE` — excluir dados
-
-O projeto também permite compreender conceitos básicos de **rotas, requisições, respostas, parâmetros e manipulação de dados em JSON**.
 
 ## 📄 Licença
 
