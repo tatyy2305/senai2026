@@ -1,5 +1,4 @@
 atividade aula 7 
-Claro — abaixo está um **README.md completo**, já formatado em Markdown para você copiar e colocar no arquivo `README.md`.
 
 # API de Patrimônio
 
