@@ -188,7 +188,7 @@ PUT http://127.0.0.1:3000/1
 **Excluir:**
 
 ```http
-DELETE http://127.0.0.1:3000/1
+DELETE http://127.0.0.1:3000/4
 ```
 
 ## ⚙️ Scripts disponíveis
