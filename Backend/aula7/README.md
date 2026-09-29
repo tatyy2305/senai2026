@@ -131,15 +131,8 @@ PUT /4
 
 JSON enviado:
 
-```json
-{
-    "item": "Monitor Samsung 24p",
-    "local": "Laboratório 03",
-    "dataRegistro": "2026-09-29",
-    "valor": 1500,
-    "patrimonio": "PAT-00128"
-}
-```
+<img width="758" height="895" alt="Captura de tela 2026-09-29 093707" src="https://github.com/user-attachments/assets/cf9b1aa1-d664-49b8-8163-d4a41c1c98c2" />
+
 
 Resposta:
 
