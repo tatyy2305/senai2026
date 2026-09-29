@@ -142,14 +142,7 @@ Patrimônio atualizado com sucesso!
 
 ## 📋 Dados cadastrados
 
-O arquivo `dados.json` contém inicialmente os seguintes patrimônios:
-
-| ID | Item              | Local          |       Valor | Patrimônio |
-| -: | ----------------- | -------------- | ----------: | ---------- |
-|  1 | Notebook Dell     | Laboratório 01 | R$ 3.500,00 | PAT-00125  |
-|  2 | Projetor Epson    | Sala 03        | R$ 2.800,00 | PAT-00126  |
-|  3 | Teclado           | Sala 02        |   R$ 160,00 | PAT-00127  |
-|  4 | Monitor Ryzen 24p | Laboratório 02 | R$ 1.200,00 | PAT-00128  |
+<img width="1387" height="701" alt="Captura de tela 2026-09-29 095258" src="https://github.com/user-attachments/assets/20288bf3-85d4-4b7b-a92a-c6b624c845ae" />
 
 ## 🧪 Testando a API
 
