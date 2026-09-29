@@ -116,6 +116,8 @@ DELETE /:id
 
 Exemplo:
 
+<img width="759" height="896" alt="Captura de tela 2026-09-29 093738" src="https://github.com/user-attachments/assets/bf2b4d99-301f-4af3-a303-ff010564b2d9" />
+
 ```http
 DELETE /4
 ```
