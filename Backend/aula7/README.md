@@ -79,8 +79,10 @@ Exemplo de JSON enviado:
 <img width="751" height="761" alt="Captura de tela 2026-09-29 093617" src="https://github.com/user-attachments/assets/94f4cb03-f8bf-4ec7-8671-c2f229146093" />
 
 
-```
+---
 
+
+```
 Resposta:
 
 ```text
