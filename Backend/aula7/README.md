@@ -1,5 +1,4 @@
 atividade aula 7 
-
 # API de Patrimônio
 
 Projeto desenvolvido em **Node.js** utilizando **Express** para criar uma API simples de gerenciamento de patrimônios.
