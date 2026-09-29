@@ -149,13 +149,6 @@ Patrimônio atualizado com sucesso!
 
 ## Testando a API
 
-Você pode utilizar ferramentas como:
-
-* **Insomnia**
-* **Postman**
-
-### Exemplos
-
 **Consultar:**
 
 ```http
