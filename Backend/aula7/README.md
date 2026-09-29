@@ -49,15 +49,15 @@ O servidor será executado em:
 ```text
 http://127.0.0.1:3000
 ```
-## Rotas
+##Rotas
 
-Post time: http://localhost:3000/times
-Get times: http://localhost:3000/times
-Put time: http://localhost:3000/times/:id
-Delete time: http://localhost:3000/times/:id
-
+```text
+Post patrimônio:   http://localhost:3000/patrimonio
+Get patrimônios:   http://localhost:3000/patrimonio
+Put patrimônio:    http://localhost:3000/patrimonio/:id
+Delete patrimônio: http://localhost:3000/patrimonio/:id
 ## Rotas da API
-
+```
 ### GET — Consultar patrimônios
 
 Retorna todos os patrimônios cadastrados.
