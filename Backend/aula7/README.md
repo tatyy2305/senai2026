@@ -76,7 +76,8 @@ POST /
 ```
 
 Exemplo de JSON enviado:
-<img width="751" height="761" alt="Captura de tela 2026-09-29 093617" src="https://github.com/user-attachments/assets/94f4cb03-f8bf-4ec7-8671-c2f229146093" />
+
+<img width="751" height="761" alt="Captura de tela 2026-09-29 093617" src="https://github.com/user-attachments/assets/67872768-57b4-4e98-b9d3-eabaaec0d3ce" />
 
 
 ---
@@ -189,7 +190,7 @@ npm run dev
 
 Esse comando inicia o servidor Node.js.
 
-## 👨‍💻 Objetivo do projeto
+## Objetivo do projeto
 
 O objetivo deste projeto é praticar o desenvolvimento de uma **API REST**, utilizando os principais métodos HTTP:
 
