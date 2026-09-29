@@ -7,7 +7,7 @@ Projeto desenvolvido em **Node.js** utilizando **Express** para criar uma API si
 
 A API permite **consultar, cadastrar, alterar e excluir patrimônios** utilizando requisições HTTP.
 
-## 🚀 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * Node.js
 * Express
@@ -15,7 +15,7 @@ A API permite **consultar, cadastrar, alterar e excluir patrimônios** utilizand
 * JSON
 * Insomnia ou Postman para testes
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 aula7/
@@ -28,7 +28,7 @@ aula7/
     └── server.js
 ```
 
-## 📦 Instalação
+## Instalação
 
 Clone ou abra o projeto e instale as dependências:
 
@@ -36,7 +36,7 @@ Clone ou abra o projeto e instale as dependências:
 npm install
 ```
 
-## ▶️ Executando o projeto
+## Executando o projeto
 
 Para iniciar o servidor, utilize:
 
@@ -50,7 +50,7 @@ O servidor será executado em:
 http://127.0.0.1:3000
 ```
 
-## 🔗 Rotas da API
+## Rotas da API
 
 ### GET — Consultar patrimônios
 
@@ -142,11 +142,11 @@ Resposta:
 Patrimônio atualizado com sucesso!
 ```
 
-## 📋 Dados cadastrados
+## Dados cadastrados
 
 <img width="1387" height="701" alt="Captura de tela 2026-09-29 095258" src="https://github.com/user-attachments/assets/20288bf3-85d4-4b7b-a92a-c6b624c845ae" />
 
-## 🧪 Testando a API
+## Testando a API
 
 Você pode utilizar ferramentas como:
 
