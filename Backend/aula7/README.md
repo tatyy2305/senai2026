@@ -62,18 +62,8 @@ GET /
 
 Exemplo de resposta:
 
-```json
-[
-    {
-        "id": 1,
-        "item": "Notebook Dell",
-        "local": "Laboratório 01",
-        "dataRegistro": "2026-09-01",
-        "valor": 3500,
-        "patrimonio": "PAT-00125"
-    }
-]
-```
+<img width="759" height="913" alt="Captura de tela 2026-09-29 093645" src="https://github.com/user-attachments/assets/2e71cb41-eea6-4694-ba24-6f392e6d846d" />
+
 
 ---
 
@@ -86,16 +76,8 @@ POST /
 ```
 
 Exemplo de JSON enviado:
+<img width="751" height="761" alt="Captura de tela 2026-09-29 093617" src="https://github.com/user-attachments/assets/649264a1-896b-4587-af94-e69e03b4865c" />
 
-```json
-{
-    "id": 5,
-    "item": "Computador",
-    "local": "Laboratório 03",
-    "dataRegistro": "2026-09-29",
-    "valor": 4500,
-    "patrimonio": "PAT-00129"
-}
 ```
 
 Resposta:
