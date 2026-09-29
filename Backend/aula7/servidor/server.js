@@ -19,7 +19,7 @@ const excluirPatrimonio = (req, res) => {
 
     patrimonio.forEach((patrimonio, indice) => {
         if (patrimonio.id == id) {
-            patrimonio.splice(indice, 1)
+            patrimonios.splice(indice, 1)
         }
     });
 
