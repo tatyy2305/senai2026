@@ -49,6 +49,12 @@ O servidor será executado em:
 ```text
 http://127.0.0.1:3000
 ```
+## Rotas
+
+Post time: http://localhost:3000/times
+Get times: http://localhost:3000/times
+Put time: http://localhost:3000/times/:id
+Delete time: http://localhost:3000/times/:id
 
 ## Rotas da API
 
