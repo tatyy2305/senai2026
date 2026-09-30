@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f8bdde;
+
+    color: #f3f2f2;
+
+    text-align: center;
+
+    margin: 0;
+}
+.container {
+    width: 400px;
+
+    margin: 50px auto;
+}
+#ventilador {
+    position: relative;
+
+    width: 300px;
+    height: 300px;
+
+    margin: 30px auto;
+
+    background-color: #faf8f8;
+
+    border: 10px solid #ffa8d3;
+
+    border-radius: 50%;
+}
+.helices {
+    position: absolute;
+
+    width: 180px;
+    height: 180px;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+.helice {
+    position: absolute;
+
+    width: 35px;
+    height: 80px;
+
+    background-color: #ffb3df;
+
+    top: 10px;
+    left: 72px;
+
+    border-radius: 50%;
+
+    transform-origin: center 80px;
+}
+.helice:nth-child(1) {
+    transform: rotate(0deg);
+}
+
+.helice:nth-child(2) {
+    transform: rotate(120deg);
+}
+
+.helice:nth-child(3) {
+    transform: rotate(240deg);
+}
+.centro {
+    position: absolute;
+
+    width: 45px;
+    height: 45px;
+
+    background-color: #ff9ac4;
+
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+}
+@keyframes girar {
+
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+
+}
+#ventilador.ligado {
+
+    box-shadow:
+        0 0 15px rgb(255, 255, 255),
+        0 0 30px white,
+        0 0 50px rgb(238, 164, 207);
+}
+
+#ventilador.ligado .helices {
+    animation: girar 1s linear infinite;
+}
+button {
+    padding: 10px 20px;
+
+    margin: 5px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    background-color: #fa92ba;
+
+    color: white;
+}
+
+
+button:hover {
+    background-color: rgb(255, 176, 218);
+
+    transform: scale(1.05);
+}
+.velocidade {
+    background-color: #fa80bd;
+
+    color: white;
+
+    font-weight: bold;
+}
+
+
+.velocidade.selecionada {
+    background-color: #f8a7c2;
+
+    box-shadow: 0 0 15px #FF69A3;
+}
