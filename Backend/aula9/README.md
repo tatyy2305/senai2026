@@ -1,30 +1,17 @@
-faça um readme.md
-
-Pronto! Fiz o README.md completo com base no seu projeto, incluindo clientes, pedidos, CRUD, rotas, cálculo de subtotal, estrutura MVC e como executar a API.
-
-📄 
-Baixar README.md 
-
-README.md
-Documento
-
-Biblioteca
-/
-README.md
-📦 API de Clientes e Pedidos
+## API de Clientes e Pedidos
 
 API REST desenvolvida com Node.js e Express para realizar o gerenciamento de clientes e pedidos, utilizando arquivos JSON como fonte de dados.
 
 O projeto implementa operações de CRUD para clientes e pedidos, além de uma estrutura inicial para cálculo de subtotais.
 
-🚀 Tecnologias utilizadas
-🟢 Node.js
-⚡ Express
-🌐 CORS
-📄 JSON para armazenamento dos dados
-🔗 API REST
-🛠️ Visual Studio Code
-📁 Estrutura do projeto
+ Tecnologias utilizadas
+ Node.js
+ Express
+ CORS
+ JSON para armazenamento dos dados
+ API REST
+ Visual Studio Code
+ Estrutura do projeto
 projeto/
 │
 ├── dados/
@@ -43,7 +30,7 @@ projeto/
 
 Os nomes das pastas podem variar de acordo com a organização do projeto.
 
-👥 Clientes
+ Clientes
 
 Os clientes são armazenados no arquivo clientes.json.
 
@@ -72,7 +59,7 @@ GET	/clientes	Lista todos os clientes
 POST	/clientes	Cadastra um novo cliente
 PUT	/clientes/:id	Altera um cliente
 DELETE	/clientes/:id	Exclui um cliente
-🛒 Pedidos
+ Pedidos
 
 Os pedidos são armazenados no arquivo pedidos.json.
 
@@ -99,7 +86,7 @@ GET	/pedidos	Lista todos os pedidos
 POST	/pedidos	Cadastra um novo pedido
 PUT	/pedidos/:id	Altera um pedido
 DELETE	/pedidos/:id	Exclui um pedido
-🧮 Cálculo do subtotal
+ Cálculo do subtotal
 
 O projeto possui uma função calcTotais() destinada ao cálculo dos valores dos pedidos.
 
@@ -117,7 +104,7 @@ GET /subtotal
 
 Essa funcionalidade está em desenvolvimento.
 
-🔄 CRUD
+ CRUD
 
 O projeto utiliza as quatro operações principais do CRUD:
 
@@ -145,7 +132,7 @@ Exclusão de registros:
 
 DELETE /clientes/:id
 DELETE /pedidos/:id
-📌 Exemplos de requisições
+ Exemplos de requisições
 Cadastrar cliente
 
 POST /clientes
@@ -182,7 +169,7 @@ PUT /pedidos/1
   "preco": 200.00,
   "quantidade": 3
 }
-⚠️ Tratamento de erros
+ Tratamento de erros
 
 Caso um cliente ou pedido não seja encontrado, a API retorna o status:
 
@@ -195,7 +182,7 @@ Cliente não encontrado.
 ou:
 
 Pedido não encontrado!
-▶️ Como executar o projeto
+ Como executar o projeto
 1. Instale as dependências
 
 No terminal, dentro da pasta do projeto:
@@ -218,7 +205,7 @@ A rota inicial retorna:
 {
   "mensagem": "MVC respondendo"
 }
-🧪 Testando a API
+ Testando a API
 
 Você pode utilizar ferramentas como:
 
@@ -231,7 +218,7 @@ Exemplos:
 
 GET http://localhost:3000/clientes
 GET http://localhost:3000/pedidos
-🏗️ Arquitetura
+ Arquitetura
 
 O projeto utiliza uma organização baseada em MVC (Model-View-Controller), separando as responsabilidades da aplicação.
 
@@ -256,7 +243,7 @@ Dados
 
 Os arquivos JSON armazenam os registros utilizados pela aplicação.
 
-🔐 Configurações do servidor
+ Configurações do servidor
 
 O Express é configurado para aceitar:
 
@@ -266,7 +253,7 @@ app.use(express.json());
 
 Isso permite o recebimento de dados em formato JSON e dados enviados por formulários.
 
-📚 Objetivo do projeto
+ Objetivo do projeto
 
 O objetivo deste projeto é desenvolver uma API REST utilizando Node.js e Express, praticando:
 
@@ -279,10 +266,6 @@ Requisições GET, POST, PUT e DELETE;
 Organização de código com Controllers;
 Relacionamento entre clientes e pedidos;
 Cálculo de valores de pedidos.
-👨‍💻 Projeto acadêmico
+ Projeto acadêmico
 
 Projeto desenvolvido para fins de estudo e prática de desenvolvimento Backend com Node.js e Express.
-
-📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
