@@ -12,6 +12,7 @@ O projeto implementa operações de CRUD para clientes e pedidos, além de uma e
  API REST
  Visual Studio Code
  Estrutura do projeto
+ 
 projeto/
 │
 ├── dados/
