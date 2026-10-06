@@ -33,11 +33,15 @@ VALUES("michael jackson", "m.jackson@gmail.com", "1920-03-22");
 
 
 USE db_senai;
- SELECT * FROM cliente;
 
+INSERT INTO produto (produto,dt_entrada,preco,qtd)
+    VALUES ("Monitor Dell","2026-08-23","2800.00",4);
 
- INSERT INTO produto(produto, dt_entrega, preco, qtd)
- VALUES("Notebook","2026-02-05", 5000.45, 5);
+INSERT INTO produto (produto,dt_entrada,preco,qtd)
+    VALUES ("Mouse Dell","2026-05-06","125.00",3);
+
+INSERT INTO produto (produto,dt_entrada,preco,qtd)
+    VALUES ("Teclado Dell","2026-08-03","125.00",5);
 
 
 USE db_senai;
@@ -55,4 +59,38 @@ USE db_senai;
  ADD CONSTRAINT fk_venda_produto
  FOREIGN KEY (id_produto)
  REFERENCes produto(id_produto);
+
+CREATE DATABASE compra_produtos;
+
+USE compra_produtos;
+
+CREATE TABLE cliente (
+    id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    telefone VARCHAR(20) NOT NULL
+);
+
+create table produto(
+    id_produto int primary key AUTO_INCREMENT
+    nome_cliente varchar(100) not null,
+    preco decimal (10, 2) not null,
+    
+)
+
+create table compra(
+    id_compra int primary key AUTO_INCREMENT,
+    id_cliente int not null,
+    id_produto int not null,
+    qtd int not null
+);
+INSERT INTO cliente(id_cliente, email, telefone)
+VALUES("Luisa da Silva Azevedo", "luizaazevedo@gmail.com", "19997416489");
  
+INSERT INTO cliente(id_cliente, email, telefone)
+VALUES("Antonio Lopes Oliveira", "antoniooliveira@email.com", "19994735736");
+ 
+INSERT INTO produto (nome_produto,preco)
+    VALUES ("Mouse","175");
+
+-
