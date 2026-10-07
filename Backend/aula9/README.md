@@ -386,24 +386,8 @@ npx nodemon index.js
 
 O servidor utiliza a porta `3000`.
 
-```javascript
-const express = require("express");
-const cors = require("cors");
+<img width="633" height="365" alt="image" src="https://github.com/user-attachments/assets/623f154e-e7ff-4419-8e59-4c3cf16b8570" />
 
-const routes = require("./src/controllers/routes");
-
-const app = express();
-
-app.use(cors());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(routes);
-
-const porta = 3000;
-
-app.listen(porta, () => {
-    console.log(`Servidor respondente em: http://localhost:${porta}`);
-});
 ```
 
 Após iniciar o projeto, acesse:
