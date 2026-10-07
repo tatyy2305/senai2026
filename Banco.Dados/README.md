@@ -66,5 +66,44 @@ Armazena os produtos comprados pelos clientes.
 
 O banco possui os seguintes relacionamentos:
 
+-----------------------------------------------------
+#  Sistema de Biblioteca
+
+##  Descrição
+
+Este projeto consiste na criação de um banco de dados para um **Sistema de Biblioteca**, desenvolvido em MySQL.
+
+O sistema tem como objetivo controlar os **alunos**, os **livros** disponíveis e os **empréstimos realizados**.
+
+O banco de dados permite registrar informações dos alunos, informações dos livros e relacionar cada empréstimo ao aluno e ao livro correspondente.
+
+---
+
+##  Objetivo
+
+O objetivo deste projeto é desenvolver um banco de dados capaz de:
+
+-  Cadastrar alunos;
+-  Cadastrar livros;
+-  Registrar empréstimos;
+-  Registrar a data de devolução;
+-  Relacionar alunos e livros através dos empréstimos;
+-  Consultar os dados cadastrados.
+
+---
+
+#  Estrutura do Banco de Dados
+
+O banco de dados possui três tabelas:
+
 ```text
-CLIENTE 1 ───────── N COMPRA N ───────── 1 PRODUTO
+ALUNO
+   │
+   │ 1:N
+   │
+   ▼
+EMPRÉSTIMO
+   ▲
+   │ N:1
+   │
+LIVRO
