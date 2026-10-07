@@ -191,6 +191,7 @@ PUT /clientes/1
 ```
 
 JSON:
+
 <img width="726" height="710" alt="Captura de tela 2026-10-07 103508" src="https://github.com/user-attachments/assets/c7b984b8-509e-4673-a094-3ee972f9142e" />
 
 
