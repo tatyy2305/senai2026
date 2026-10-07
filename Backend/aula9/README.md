@@ -1,30 +1,48 @@
-faça um readme.md
+# 🛒 API de Clientes e Pedidos
 
-Pronto! Fiz o README.md completo com base no seu projeto, incluindo clientes, pedidos, CRUD, rotas, cálculo de subtotal, estrutura MVC e como executar a API.
+API desenvolvida utilizando **Node.js**, **Express** e **CORS**, seguindo uma organização baseada no padrão **MVC (Model-View-Controller)**.
 
-📄 
-Baixar README.md 
+O projeto permite realizar operações **CRUD** de clientes e pedidos, além de calcular o subtotal dos pedidos.
 
-README.md
-Documento
+---
 
-Biblioteca
-/
-README.md
-📦 API de Clientes e Pedidos
+## 📌 Sobre o projeto
 
-API REST desenvolvida com Node.js e Express para realizar o gerenciamento de clientes e pedidos, utilizando arquivos JSON como fonte de dados.
+O objetivo do projeto é desenvolver uma API capaz de cadastrar, consultar, alterar e excluir **clientes e pedidos**.
 
-O projeto implementa operações de CRUD para clientes e pedidos, além de uma estrutura inicial para cálculo de subtotais.
+A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** para criar as rotas e controlar as requisições HTTP.
 
-🚀 Tecnologias utilizadas
-🟢 Node.js
-⚡ Express
-🌐 CORS
-📄 JSON para armazenamento dos dados
-🔗 API REST
-🛠️ Visual Studio Code
-📁 Estrutura do projeto
+### Funcionalidades
+
+* 👤 Listar clientes
+* ➕ Cadastrar clientes
+* ✏️ Alterar clientes
+* 🗑️ Excluir clientes
+* 📦 Listar pedidos
+* ➕ Cadastrar pedidos
+* ✏️ Alterar pedidos
+* 🗑️ Excluir pedidos
+* 🧮 Calcular subtotal dos pedidos
+* 🌐 Utilização de CORS
+* 🔄 API baseada em requisições HTTP
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* **Node.js**
+* **Express**
+* **CORS**
+* **JavaScript**
+* **JSON**
+* **REST API**
+* **Arquitetura MVC**
+
+---
+
+## 📁 Estrutura do projeto
+
+```text
 projeto/
 │
 ├── dados/
@@ -37,252 +55,439 @@ projeto/
 │       ├── pedido.js
 │       └── routes.js
 │
-├── app.js
+├── index.js
 ├── package.json
 └── README.md
+```
 
-Os nomes das pastas podem variar de acordo com a organização do projeto.
+---
 
-👥 Clientes
+# 👤 Clientes
 
-Os clientes são armazenados no arquivo clientes.json.
+Os clientes são armazenados no arquivo:
+
+```text
+dados/clientes.json
+```
 
 Exemplo:
 
+```json
 [
-  {
-    "id": 1,
-    "cpf": "123.456.789-00",
-    "nome": "Ivone Silva"
-  },
-  {
-    "id": 2,
-    "cpf": "123.456.000-01",
-    "nome": "Marieta"
-  },
-  {
-    "id": 3,
-    "cpf": "123.456.111-02",
-    "nome": "Julieta"
-  }
+    {
+        "id": 1,
+        "cpf": "123.456.789-00",
+        "nome": "Ivone Silva"
+    },
+    {
+        "id": 2,
+        "cpf": "123.456.000-01",
+        "nome": "Marieta"
+    },
+    {
+        "id": 3,
+        "cpf": "123.456.111-02",
+        "nome": "Julieta"
+    }
 ]
-Endpoints de clientes
-Método	Rota	Função
-GET	/clientes	Lista todos os clientes
-POST	/clientes	Cadastra um novo cliente
-PUT	/clientes/:id	Altera um cliente
-DELETE	/clientes/:id	Exclui um cliente
-🛒 Pedidos
+```
 
-Os pedidos são armazenados no arquivo pedidos.json.
+---
 
-Cada pedido possui informações como:
+## 📦 Pedidos
 
-id
-cliente_id
-produto
-preco
-quantidade
+Os pedidos são armazenados no arquivo:
+
+```text
+dados/pedidos.json
+```
 
 Exemplo:
 
+```json
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "produto": "Notebook",
+        "preco": 3500.00,
+        "quantidade": 2
+    },
+    {
+        "id": 2,
+        "cliente_id": 2,
+        "produto": "Smartphone",
+        "preco": 1500.00,
+        "quantidade": 2
+    },
+    {
+        "id": 3,
+        "cliente_id": 1,
+        "produto": "Teclado",
+        "preco": 200.00,
+        "quantidade": 3
+    },
+    {
+        "id": 4,
+        "cliente_id": 3,
+        "produto": "Monitor",
+        "preco": 800.00,
+        "quantidade": 1
+    }
+]
+```
+
+---
+
+# 🔧 CRUD
+
+CRUD representa as quatro principais operações realizadas em uma API:
+
+| Operação | Método HTTP | Função              |
+| -------- | ----------- | ------------------- |
+| Create   | `POST`      | Criar um registro   |
+| Read     | `GET`       | Consultar registros |
+| Update   | `PUT`       | Alterar um registro |
+| Delete   | `DELETE`    | Excluir um registro |
+
+---
+
+# 👤 Rotas de Clientes
+
+### 📋 Listar clientes
+
+```http
+GET /clientes
+```
+
+Retorna todos os clientes cadastrados.
+
+---
+
+### ➕ Cadastrar cliente
+
+```http
+POST /clientes
+```
+
+Exemplo de JSON enviado:
+
+```json
 {
-  "id": 1,
-  "cliente_id": 1,
-  "produto": "Notebook",
-  "preco": 3500.00,
-  "quantidade": 2
+    "cpf": "111.222.333-44",
+    "nome": "Carlos Silva"
 }
-Endpoints de pedidos
-Método	Rota	Função
-GET	/pedidos	Lista todos os pedidos
-POST	/pedidos	Cadastra um novo pedido
-PUT	/pedidos/:id	Altera um pedido
-DELETE	/pedidos/:id	Exclui um pedido
-🧮 Cálculo do subtotal
+```
 
-O projeto possui uma função calcTotais() destinada ao cálculo dos valores dos pedidos.
+---
 
-A lógica utilizada é:
+### ✏️ Alterar cliente
 
-subtotal = preço × quantidade
+```http
+PUT /clientes/:id
+```
+
+Exemplo:
+
+```http
+PUT /clientes/1
+```
+
+JSON:
+
+```json
+{
+    "id": 1,
+    "cpf": "999.888.777-66",
+    "nome": "Carlos Santos"
+}
+```
+
+---
+
+### 🗑️ Excluir cliente
+
+```http
+DELETE /clientes/:id
+```
+
+Exemplo:
+
+```http
+DELETE /clientes/1
+```
+
+---
+
+# 📦 Rotas de Pedidos
+
+### 📋 Listar pedidos
+
+```http
+GET /pedidos
+```
+
+Retorna todos os pedidos cadastrados.
+
+---
+
+### ➕ Cadastrar pedido
+
+```http
+POST /pedidos
+```
+
+Exemplo:
+
+```json
+{
+    "cliente_id": 1,
+    "produto": "Mouse",
+    "preco": 100.00,
+    "quantidade": 2
+}
+```
+
+---
+
+### ✏️ Alterar pedido
+
+```http
+PUT /pedidos/:id
+```
+
+Exemplo:
+
+```http
+PUT /pedidos/1
+```
+
+JSON:
+
+```json
+{
+    "id": 1,
+    "cliente_id": 1,
+    "produto": "Notebook",
+    "preco": 3500.00,
+    "quantidade": 3
+}
+```
+
+---
+
+### 🗑️ Excluir pedido
+
+```http
+DELETE /pedidos/:id
+```
+
+Exemplo:
+
+```http
+DELETE /pedidos/1
+```
+
+---
+
+# 🧮 Cálculo do subtotal
+
+O sistema possui uma função responsável pelo cálculo do subtotal de cada pedido.
+
+A fórmula utilizada é:
+
+```text
+Subtotal = Preço × Quantidade
+```
 
 Por exemplo:
 
-R$ 3.500,00 × 2 = R$ 7.000,00
+```text
+Notebook
+Preço: R$ 3.500,00
+Quantidade: 2
 
-Também existe uma rota para subtotal, atualmente definida como:
+Subtotal = 3500 × 2
+Subtotal = R$ 7.000,00
+```
 
-GET /subtotal
+A função utilizada no projeto:
 
-Essa funcionalidade está em desenvolvimento.
-
-🔄 CRUD
-
-O projeto utiliza as quatro operações principais do CRUD:
-
-Create
-
-Criação de novos registros:
-
-POST /clientes
-POST /pedidos
-Read
-
-Consulta dos registros:
-
-GET /clientes
-GET /pedidos
-Update
-
-Alteração de registros:
-
-PUT /clientes/:id
-PUT /pedidos/:id
-Delete
-
-Exclusão de registros:
-
-DELETE /clientes/:id
-DELETE /pedidos/:id
-📌 Exemplos de requisições
-Cadastrar cliente
-
-POST /clientes
-
-{
-  "cpf": "123.456.789-99",
-  "nome": "João da Silva"
+```javascript
+function calcTotais() {
+    pedidos.forEach(p => {
+        p.subtotais = p.quantidade * p.preco;
+    });
 }
-Alterar cliente
+```
 
-PUT /clientes/1
+---
 
-{
-  "cpf": "123.456.789-88",
-  "nome": "João Silva"
-}
-Cadastrar pedido
+# 🌐 Rotas da API
 
-POST /pedidos
+| Método   | Rota            | Descrição                          |
+| -------- | --------------- | ---------------------------------- |
+| `GET`    | `/`             | Verifica se a API está funcionando |
+| `GET`    | `/clientes`     | Lista clientes                     |
+| `POST`   | `/clientes`     | Cadastra cliente                   |
+| `PUT`    | `/clientes/:id` | Altera cliente                     |
+| `DELETE` | `/clientes/:id` | Exclui cliente                     |
+| `GET`    | `/pedidos`      | Lista pedidos                      |
+| `POST`   | `/pedidos`      | Cadastra pedido                    |
+| `PUT`    | `/pedidos/:id`  | Altera pedido                      |
+| `DELETE` | `/pedidos/:id`  | Exclui pedido                      |
 
-{
-  "cliente_id": 1,
-  "produto": "Mouse",
-  "preco": 150.00,
-  "quantidade": 2
-}
-Alterar pedido
+---
 
-PUT /pedidos/1
+# 🚀 Instalação
 
-{
-  "cliente_id": 1,
-  "produto": "Teclado",
-  "preco": 200.00,
-  "quantidade": 3
-}
-⚠️ Tratamento de erros
+## 1. Clonar o projeto
 
-Caso um cliente ou pedido não seja encontrado, a API retorna o status:
+```bash
+git clone URL_DO_SEU_REPOSITORIO
+```
 
-404 Not Found
+Entre na pasta:
 
-Exemplo:
+```bash
+cd nome-do-projeto
+```
 
-Cliente não encontrado.
+---
 
-ou:
+## 2. Instalar as dependências
 
-Pedido não encontrado!
-▶️ Como executar o projeto
-1. Instale as dependências
+Execute:
 
-No terminal, dentro da pasta do projeto:
-
+```bash
 npm install
-2. Execute a aplicação
-node app.js
+```
 
-Se estiver utilizando o nodemon:
+Caso as dependências ainda não estejam instaladas:
 
-npx nodemon app.js
-3. Acesse a API
+```bash
+npm install express cors
+```
 
-O servidor é executado na porta 3000:
+---
 
-http://localhost:3000
+## 3. Executar o servidor
 
-A rota inicial retorna:
+```bash
+node index.js
+```
 
-{
-  "mensagem": "MVC respondendo"
-}
-🧪 Testando a API
+Se estiver utilizando `nodemon`:
 
-Você pode utilizar ferramentas como:
+```bash
+npx nodemon index.js
+```
 
-Postman
-Insomnia
-Thunder Client
-Navegador, para requisições GET
+---
 
-Exemplos:
+#  Servidor
 
-GET http://localhost:3000/clientes
-GET http://localhost:3000/pedidos
-🏗️ Arquitetura
+O servidor utiliza a porta `3000`.
 
-O projeto utiliza uma organização baseada em MVC (Model-View-Controller), separando as responsabilidades da aplicação.
+```javascript
+const express = require("express");
+const cors = require("cors");
 
-Requisição
-    ↓
-Routes
-    ↓
-Controllers
-    ↓
-Arquivos JSON
-    ↓
-Resposta da API
-Routes
+const routes = require("./src/controllers/routes");
 
-Responsável por definir as rotas e direcionar cada requisição para o controlador correspondente.
-
-Controllers
-
-Responsáveis pelas regras e operações de clientes e pedidos.
-
-Dados
-
-Os arquivos JSON armazenam os registros utilizados pela aplicação.
-
-🔐 Configurações do servidor
-
-O Express é configurado para aceitar:
+const app = express();
 
 app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use(routes);
 
-Isso permite o recebimento de dados em formato JSON e dados enviados por formulários.
+const porta = 3000;
 
-📚 Objetivo do projeto
+app.listen(porta, () => {
+    console.log(`Servidor respondente em: http://localhost:${porta}`);
+});
+```
 
-O objetivo deste projeto é desenvolver uma API REST utilizando Node.js e Express, praticando:
+Após iniciar o projeto, acesse:
 
-Criação de APIs;
-Rotas HTTP;
-CRUD;
-Manipulação de arquivos JSON;
-Uso de parâmetros de rota;
-Requisições GET, POST, PUT e DELETE;
-Organização de código com Controllers;
-Relacionamento entre clientes e pedidos;
-Cálculo de valores de pedidos.
-👨‍💻 Projeto acadêmico
+```text
+http://localhost:3000
+```
 
-Projeto desenvolvido para fins de estudo e prática de desenvolvimento Backend com Node.js e Express.
+A resposta esperada será:
 
-📄 Licença
+```text
+MVC respondendo
+```
 
-Este projeto foi desenvolvido para fins educacionais.
+---
+
+#  Testando a API
+
+Você pode utilizar ferramentas como:
+
+* **Insomnia**
+* **Postman**
+* **Thunder Client**
+* **Navegador** para requisições `GET`
+
+Exemplo:
+
+```text
+GET http://localhost:3000/clientes
+```
+
+ou:
+
+```text
+GET http://localhost:3000/pedidos
+```
+
+---
+
+#  Arquitetura MVC
+
+O projeto utiliza uma organização baseada em **MVC**.
+
+```text
+              API
+               │
+               ▼
+             Routes
+               │
+        ┌──────┴──────┐
+        ▼             ▼
+     Cliente        Pedido
+     Controller    Controller
+        │             │
+        ▼             ▼
+ clientes.json    pedidos.json
+```
+
+### Controllers
+
+Os controllers são responsáveis por receber as requisições e executar as operações necessárias.
+
+```text
+cliente.js
+pedido.js
+```
+
+### Routes
+
+O arquivo `routes.js` define os caminhos e métodos HTTP utilizados pela API.
+
+```text
+routes.js
+```
+
+### Dados
+
+Os dados são armazenados em arquivos JSON:
+
+```text
+clientes.json
+pedidos.json
+```
+
