@@ -165,10 +165,7 @@ Retorna todos os clientes cadastrados.
 ---
 
 ###  Cadastrar cliente
-
-```http
-POST /clientes
-```
+<img width="755" height="751" alt="Captura de tela 2026-10-07 102929" src="https://github.com/user-attachments/assets/62cddf15-24d8-4743-a6c2-3312271e4c77" />
 
 Exemplo de JSON enviado:
 
