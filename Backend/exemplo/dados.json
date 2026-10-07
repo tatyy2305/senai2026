@@ -1,0 +1,23 @@
+[
+    {
+        "id" :1,
+        "nome":"fulano da silva",
+        "email": "fulano@email.com",
+        "telefone": "123-456-7890",
+        "senha":"senha1234"
+    },
+    {
+        "id" :2,
+        "nome":"Beltrano oliveira",
+        "email": "beltrano@email.com",
+        "telefone": "432-567-1234",
+        "senha":"senha4352"
+    },
+     {
+        "id" :3,
+        "nome":"ciclano costa",
+        "email": "ciclano@email.com",
+        "telefone": "420-123-5637",
+        "senha":"senha9856"
+    }
+]
