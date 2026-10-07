@@ -191,14 +191,8 @@ PUT /clientes/1
 ```
 
 JSON:
+<img width="726" height="710" alt="Captura de tela 2026-10-07 103508" src="https://github.com/user-attachments/assets/c7b984b8-509e-4673-a094-3ee972f9142e" />
 
-```json
-{
-    "id": 1,
-    "cpf": "999.888.777-66",
-    "nome": "Carlos Santos"
-}
-```
 
 ---
 
@@ -213,6 +207,7 @@ Exemplo:
 ```http
 DELETE /clientes/1
 ```
+<img width="731" height="714" alt="Captura de tela 2026-10-07 103348" src="https://github.com/user-attachments/assets/09a25955-b066-4e9f-881b-4e8bc7cb9bb5" />
 
 ---
 
@@ -225,6 +220,7 @@ GET /pedidos
 ```
 
 Retorna todos os pedidos cadastrados.
+<img width="729" height="714" alt="Captura de tela 2026-10-07 103609" src="https://github.com/user-attachments/assets/83ef04ab-2ccf-4923-9823-e01eec6179dc" />
 
 ---
 
@@ -244,6 +240,7 @@ Exemplo:
     "quantidade": 2
 }
 ```
+<img width="729" height="721" alt="Captura de tela 2026-10-07 103713" src="https://github.com/user-attachments/assets/c2ef80e9-90c5-499b-befa-94564f3a9c7e" />
 
 ---
 
@@ -270,6 +267,7 @@ JSON:
     "quantidade": 3
 }
 ```
+<img width="735" height="725" alt="Captura de tela 2026-10-07 103916" src="https://github.com/user-attachments/assets/41193c9c-a2f5-4f8e-9ace-b6f7cd7ccfa5" />
 
 ---
 
@@ -284,6 +282,7 @@ Exemplo:
 ```http
 DELETE /pedidos/1
 ```
+<img width="731" height="726" alt="Captura de tela 2026-10-07 103809" src="https://github.com/user-attachments/assets/086a9ad6-0c5f-4c9f-9fe6-03c757ed8823" />
 
 ---
 
