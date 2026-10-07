@@ -90,7 +90,18 @@ VALUES("Luisa da Silva Azevedo", "luizaazevedo@gmail.com", "19997416489");
 INSERT INTO cliente(id_cliente, email, telefone)
 VALUES("Antonio Lopes Oliveira", "antoniooliveira@email.com", "19994735736");
  
-INSERT INTO produto (nome_produto,preco)
-    VALUES ("Mouse","175");
+INSERT INTO produto (nome_produto, preco)
+    VALUES ("Mouse", 175.00);
+INSERT INTO produto (nome_produto, preco)
+VALUES ("Notebook", 3500.00),
+ 
+INSERT INTO produto (nome_produto, preco)
+    VALUES ("MousePad", 50.00);
 
--
+INSERT INTO compra (id_cliente, qtd,)
+VALUES
+(1 , 1),
+(1 , 2),
+(2 , 1),
+(2 , 2),
+(3 , 1);

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 🛒 API de Clientes e Pedidos
 
 API desenvolvida utilizando **Node.js**, **Express** e **CORS**, seguindo uma organização baseada no padrão **MVC (Model-View-Controller)**.
@@ -34,6 +35,39 @@ A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** p
 ---
 
 ## 🛠️ Tecnologias utilizadas
+=======
+#  API de Clientes e Pedidos
+
+API desenvolvida utilizando **Node.js**, **Express** e **CORS**, seguindo uma organização baseada no padrão **MVC (Model-View-Controller)**.
+
+O projeto permite realizar operações **CRUD** de clientes e pedidos, além de calcular o subtotal dos pedidos.
+
+---
+
+##  Sobre o projeto
+
+O objetivo do projeto é desenvolver uma API capaz de cadastrar, consultar, alterar e excluir **clientes e pedidos**.
+
+A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** para criar as rotas e controlar as requisições HTTP.
+
+### Funcionalidades
+
+*  Listar clientes
+*  Cadastrar clientes
+*  Alterar clientes
+*  Excluir clientes
+*  Listar pedidos
+*  Cadastrar pedidos
+*  Alterar pedidos
+*  Excluir pedidos
+*  Calcular subtotal dos pedidos
+*  Utilização de CORS
+*  API baseada em requisições HTTP
+
+---
+
+##  Tecnologias utilizadas
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 * **Node.js**
 * **Express**
@@ -45,6 +79,7 @@ A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** p
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Estrutura do projeto
 
 ```text
@@ -59,6 +94,11 @@ A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** p
  Estrutura do projeto
  
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+##  Estrutura do projeto
+
+```text
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 projeto/
 │
 ├── dados/
@@ -79,10 +119,14 @@ projeto/
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 👤 Clientes
 =======
  Clientes
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+#  Clientes
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 Os clientes são armazenados no arquivo:
 
@@ -111,6 +155,7 @@ Exemplo:
     }
 ]
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 Endpoints de clientes
@@ -121,6 +166,9 @@ PUT	/clientes/:id	Altera um cliente
 DELETE	/clientes/:id	Exclui um cliente
  Pedidos
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+```
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ---
 
@@ -169,7 +217,11 @@ Exemplo:
 
 ---
 
+<<<<<<< HEAD
 #  CRUD
+=======
+# 🔧 CRUD
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 CRUD representa as quatro principais operações realizadas em uma API:
 
@@ -194,11 +246,16 @@ Retorna todos os clientes cadastrados.
 
 ---
 
+<<<<<<< HEAD
 ### ➕ Cadastrar cliente
 
 ```http
 POST /clientes
 ```
+=======
+###  Cadastrar cliente
+<img width="755" height="751" alt="Captura de tela 2026-10-07 102929" src="https://github.com/user-attachments/assets/62cddf15-24d8-4743-a6c2-3312271e4c77" />
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 Exemplo de JSON enviado:
 
@@ -207,6 +264,7 @@ Exemplo de JSON enviado:
     "cpf": "111.222.333-44",
     "nome": "Carlos Silva"
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 ```
 =======
@@ -218,6 +276,9 @@ PUT	/pedidos/:id	Altera um pedido
 DELETE	/pedidos/:id	Exclui um pedido
  Cálculo do subtotal
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+```
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ---
 
@@ -235,6 +296,7 @@ PUT /clientes/1
 
 JSON:
 
+<<<<<<< HEAD
 ```json
 {
     "id": 1,
@@ -242,6 +304,10 @@ JSON:
     "nome": "Carlos Santos"
 }
 ```
+=======
+<img width="726" height="710" alt="Captura de tela 2026-10-07 103508" src="https://github.com/user-attachments/assets/c7b984b8-509e-4673-a094-3ee972f9142e" />
+
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ---
 
@@ -256,6 +322,10 @@ Exemplo:
 ```http
 DELETE /clientes/1
 ```
+<<<<<<< HEAD
+=======
+<img width="731" height="714" alt="Captura de tela 2026-10-07 103348" src="https://github.com/user-attachments/assets/09a25955-b066-4e9f-881b-4e8bc7cb9bb5" />
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ---
 
@@ -268,10 +338,18 @@ GET /pedidos
 ```
 
 Retorna todos os pedidos cadastrados.
+<<<<<<< HEAD
 
 ---
 
 ### ➕ Cadastrar pedido
+=======
+<img width="729" height="714" alt="Captura de tela 2026-10-07 103609" src="https://github.com/user-attachments/assets/83ef04ab-2ccf-4923-9823-e01eec6179dc" />
+
+---
+
+###  Cadastrar pedido
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ```http
 POST /pedidos
@@ -287,6 +365,10 @@ Exemplo:
     "quantidade": 2
 }
 ```
+<<<<<<< HEAD
+=======
+<img width="729" height="721" alt="Captura de tela 2026-10-07 103713" src="https://github.com/user-attachments/assets/c2ef80e9-90c5-499b-befa-94564f3a9c7e" />
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ---
 
@@ -313,10 +395,18 @@ JSON:
     "quantidade": 3
 }
 ```
+<<<<<<< HEAD
 
 ---
 
 ###  Excluir pedido
+=======
+<img width="735" height="725" alt="Captura de tela 2026-10-07 103916" src="https://github.com/user-attachments/assets/41193c9c-a2f5-4f8e-9ace-b6f7cd7ccfa5" />
+
+---
+
+### 🗑️ Excluir pedido
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ```http
 DELETE /pedidos/:id
@@ -327,10 +417,18 @@ Exemplo:
 ```http
 DELETE /pedidos/1
 ```
+<<<<<<< HEAD
 
 ---
 
 # Cálculo do subtotal
+=======
+<img width="731" height="726" alt="Captura de tela 2026-10-07 103809" src="https://github.com/user-attachments/assets/086a9ad6-0c5f-4c9f-9fe6-03c757ed8823" />
+
+---
+
+#  Cálculo do subtotal
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 O sistema possui uma função responsável pelo cálculo do subtotal de cada pedido.
 
@@ -354,11 +452,15 @@ Subtotal = R$ 7.000,00
 A função utilizada no projeto:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 ```javascript
 function calcTotais() {
     pedidos.forEach(p => {
         p.subtotais = p.quantidade * p.preco;
     });
+<<<<<<< HEAD
 }
 Essa funcionalidade está em desenvolvimento.
 
@@ -399,12 +501,18 @@ POST /clientes
   "cpf": "123.456.789-99",
   "nome": "João da Silva"
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 }
 ```
 
 ---
 
+<<<<<<< HEAD
 # 🌐 Rotas da API
+=======
+#  Rotas da API
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 | Método   | Rota            | Descrição                          |
 | -------- | --------------- | ---------------------------------- |
@@ -420,6 +528,7 @@ POST /clientes
 
 ---
 
+<<<<<<< HEAD
 # 🚀 Instalação
 
 <<<<<<< HEAD
@@ -433,6 +542,11 @@ POST /clientes
 }
  Tratamento de erros
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+#  Instalação
+
+## 1. Clonar o projeto
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ```bash
 git clone URL_DO_SEU_REPOSITORIO
@@ -449,6 +563,7 @@ cd nome-do-projeto
 ## 2. Instalar as dependências
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Execute:
 =======
 Pedido não encontrado!
@@ -457,6 +572,9 @@ Pedido não encontrado!
 
 No terminal, dentro da pasta do projeto:
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+Execute:
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ```bash
 npm install
@@ -471,6 +589,7 @@ npm install express cors
 ---
 
 ## 3. Executar o servidor
+<<<<<<< HEAD
 
 ```bash
 node index.js
@@ -484,6 +603,13 @@ Se estiver utilizando `nodemon`:
 }
  Testando a API
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+
+```bash
+node index.js
+```
+
+Se estiver utilizando `nodemon`:
 
 ```bash
 npx nodemon index.js
@@ -493,11 +619,59 @@ npx nodemon index.js
 
 #  Servidor
 
+O servidor utiliza a porta `3000`.
+
+<img width="633" height="365" alt="image" src="https://github.com/user-attachments/assets/623f154e-e7ff-4419-8e59-4c3cf16b8570" />
+
+```
+
+Após iniciar o projeto, acesse:
+
+```text
+http://localhost:3000
+```
+
+A resposta esperada será:
+
+```text
+MVC respondendo
+```
+
+---
+
+#  Testando a API
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
+
+```bash
+npx nodemon index.js
+```
+
+<<<<<<< HEAD
+---
+
+#  Servidor
+
 <<<<<<< HEAD
 O servidor utiliza a porta `3000`.
 =======
+=======
+* **Insomnia**
+* **Postman**
+* **Thunder Client**
+* **Navegador** para requisições `GET`
+
+Exemplo:
+
+```text
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 GET http://localhost:3000/clientes
+```
+
+ou:
+
+```text
 GET http://localhost:3000/pedidos
+<<<<<<< HEAD
  Arquitetura
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
 
@@ -511,17 +685,43 @@ const routes = require("./src/controllers/routes");
 const app = express();
 =======
 Responsável por definir as rotas e direcionar cada requisição para o controlador correspondente.
+=======
+```
 
-Controllers
+---
 
-Responsáveis pelas regras e operações de clientes e pedidos.
+#  Arquitetura MVC
 
-Dados
+O projeto utiliza uma organização baseada em **MVC**.
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
-Os arquivos JSON armazenam os registros utilizados pela aplicação.
+```text
+              API
+               │
+               ▼
+             Routes
+               │
+        ┌──────┴──────┐
+        ▼             ▼
+     Cliente        Pedido
+     Controller    Controller
+        │             │
+        ▼             ▼
+ clientes.json    pedidos.json
+```
 
- Configurações do servidor
+### Controllers
 
+Os controllers são responsáveis por receber as requisições e executar as operações necessárias.
+
+```text
+cliente.js
+pedido.js
+```
+
+### Routes
+
+<<<<<<< HEAD
 O Express é configurado para aceitar:
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
 
@@ -638,3 +838,21 @@ Cálculo de valores de pedidos.
 
 Projeto desenvolvido para fins de estudo e prática de desenvolvimento Backend com Node.js e Express.
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
+=======
+O arquivo `routes.js` define os caminhos e métodos HTTP utilizados pela API.
+
+```text
+routes.js
+```
+
+### Dados
+
+Os dados são armazenados em arquivos JSON:
+
+```text
+clientes.json
+pedidos.json
+```
+
+
+>>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
