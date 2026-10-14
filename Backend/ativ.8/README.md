@@ -15,6 +15,7 @@ Os dados são armazenados inicialmente em arquivos JSON, que funcionam como uma 
 - **CORS** — permite requisições de diferentes origens.
 - **JSON** — formato utilizado para armazenar e transmitir os dados.
 
+
 ##  Estrutura do projeto
 
 ```text
