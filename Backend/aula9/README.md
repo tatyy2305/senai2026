@@ -10,13 +10,11 @@ O projeto permite realizar operações **CRUD** de clientes e pedidos, além de 
 ##  Sobre o projeto
 =======
 ## API de Clientes e Pedidos
->>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
 
 O objetivo do projeto é desenvolver uma API capaz de cadastrar, consultar, alterar e excluir **clientes e pedidos**.
 
 A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** para criar as rotas e controlar as requisições HTTP.
 
-<<<<<<< HEAD
 ### Funcionalidades
 
 *  Listar clientes
