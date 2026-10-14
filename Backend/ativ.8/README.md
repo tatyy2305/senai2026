@@ -73,6 +73,17 @@ Cada cliente possui as seguintes informações:
 
 <img width="601" height="633" alt="Captura de tela 2026-10-14 110208" src="https://github.com/user-attachments/assets/b9b9da74-8a9a-471e-882f-b42a50cc56a0" />
 
+- Atualizar pedidos:
+
+<img width="604" height="639" alt="Captura de tela 2026-10-14 110148" src="https://github.com/user-attachments/assets/ae4dd73c-1a44-46c1-a51a-5a86ffe70ce6" />
+
+- Excluir pedidos:
+
+<img width="607" height="641" alt="Captura de tela 2026-10-14 110220" src="https://github.com/user-attachments/assets/c7b70900-fc3a-4a35-844e-ca38c4f9b302" />
+
+
+
+
 
 
 
