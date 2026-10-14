@@ -1,4 +1,4 @@
-# 📦 API de Clientes e Pedidos
+#  API de Clientes e Pedidos
 
 ##  Sobre o projeto
 
