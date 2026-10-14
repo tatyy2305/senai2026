@@ -65,6 +65,7 @@ Armazena os produtos comprados pelos clientes.
 ##  Relacionamentos
 
 O banco possui os seguintes relacionamentos:
+<<<<<<< HEAD
 
 -----------------------------------------------------
 #  Sistema de Biblioteca
@@ -107,3 +108,6 @@ EMPRÉSTIMO
    │ N:1
    │
 LIVRO
+=======
+<img width="833" height="378" alt="Captura de tela 2026-10-07 135535" src="https://github.com/user-attachments/assets/057ca678-9266-480f-875d-52cb7b6b9d53" />
+>>>>>>> ff5f4368f2b9f0038f9d66abe26a57a788cb4f16
