@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# 🛒 API de Clientes e Pedidos
+
+#  API de Clientes e Pedidos
 
 API desenvolvida utilizando **Node.js**, **Express** e **CORS**, seguindo uma organização baseada no padrão **MVC (Model-View-Controller)**.
 
@@ -8,29 +7,27 @@ O projeto permite realizar operações **CRUD** de clientes e pedidos, além de 
 
 ---
 
-## 📌 Sobre o projeto
+##  Sobre o projeto
 =======
 ## API de Clientes e Pedidos
->>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
 
 O objetivo do projeto é desenvolver uma API capaz de cadastrar, consultar, alterar e excluir **clientes e pedidos**.
 
 A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** para criar as rotas e controlar as requisições HTTP.
 
-<<<<<<< HEAD
 ### Funcionalidades
 
-* 👤 Listar clientes
-* ➕ Cadastrar clientes
-* ✏️ Alterar clientes
-* 🗑️ Excluir clientes
-* 📦 Listar pedidos
-* ➕ Cadastrar pedidos
-* ✏️ Alterar pedidos
-* 🗑️ Excluir pedidos
-* 🧮 Calcular subtotal dos pedidos
-* 🌐 Utilização de CORS
-* 🔄 API baseada em requisições HTTP
+*  Listar clientes
+*  Cadastrar clientes
+*  Alterar clientes
+*  Excluir clientes
+*  Listar pedidos
+*  Cadastrar pedidos
+*  Alterar pedidos
+*  Excluir pedidos
+*  Calcular subtotal dos pedidos
+*  Utilização de CORS
+*  API baseada em requisições HTTP
 
 ---
 
@@ -80,7 +77,7 @@ A aplicação utiliza arquivos `.json` para armazenar os dados e o **Express** p
 ---
 
 <<<<<<< HEAD
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 =======
@@ -120,7 +117,7 @@ projeto/
 
 <<<<<<< HEAD
 <<<<<<< HEAD
-# 👤 Clientes
+#  Clientes
 =======
  Clientes
 >>>>>>> e8f28287b3f224bf0773ed4c1b8caec1f7e0439f
@@ -217,10 +214,10 @@ Exemplo:
 
 ---
 
-<<<<<<< HEAD
+
 #  CRUD
 =======
-# 🔧 CRUD
+#  CRUD
 >>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 CRUD representa as quatro principais operações realizadas em uma API:
@@ -246,8 +243,8 @@ Retorna todos os clientes cadastrados.
 
 ---
 
-<<<<<<< HEAD
-### ➕ Cadastrar cliente
+
+###  Cadastrar cliente
 
 ```http
 POST /clientes
@@ -342,7 +339,7 @@ Retorna todos os pedidos cadastrados.
 
 ---
 
-### ➕ Cadastrar pedido
+###  Cadastrar pedido
 =======
 <img width="729" height="714" alt="Captura de tela 2026-10-07 103609" src="https://github.com/user-attachments/assets/83ef04ab-2ccf-4923-9823-e01eec6179dc" />
 
@@ -365,7 +362,7 @@ Exemplo:
     "quantidade": 2
 }
 ```
-<<<<<<< HEAD
+
 =======
 <img width="729" height="721" alt="Captura de tela 2026-10-07 103713" src="https://github.com/user-attachments/assets/c2ef80e9-90c5-499b-befa-94564f3a9c7e" />
 >>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
@@ -395,7 +392,7 @@ JSON:
     "quantidade": 3
 }
 ```
-<<<<<<< HEAD
+
 
 ---
 
@@ -405,7 +402,7 @@ JSON:
 
 ---
 
-### 🗑️ Excluir pedido
+###  Excluir pedido
 >>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 
 ```http
@@ -451,8 +448,7 @@ Subtotal = R$ 7.000,00
 
 A função utilizada no projeto:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 =======
 >>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
 ```javascript
@@ -508,8 +504,8 @@ POST /clientes
 
 ---
 
-<<<<<<< HEAD
-# 🌐 Rotas da API
+
+#  Rotas da API
 =======
 #  Rotas da API
 >>>>>>> 79b30cdbe4445baa669978fe4e353d4f6527f830
@@ -528,10 +524,9 @@ POST /clientes
 
 ---
 
-<<<<<<< HEAD
-# 🚀 Instalação
+#  Instalação
 
-<<<<<<< HEAD
+
 ## 1. Clonar o projeto
 =======
 {
