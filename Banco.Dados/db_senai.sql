@@ -286,5 +286,11 @@ VALUES (2, 3, "2026-12-20", "2026-01-12");
 
 
 SELECT * FROM emprestimo;
-
-
+---------------------------------------------------
+create table produto(
+    id_produto int primary key AUTO_INCREMENT
+    marcavarchar(100) not null,
+    dt_entrada date not null,
+    preco decimal (19, 2) not null,
+    qtd int not null
+);
