@@ -1,6 +1,6 @@
 const pedidos = require("../../dados/pedidos.json");  
 
-const listar =(req, res) => {
+const listar = (req, res) => {
     res.json(pedidos)
 };
 

@@ -6,7 +6,7 @@ const listar = (req, res ) => {
 
 const criar = (req, res) => {
     const dados = req.body;
-    dados.id = number(clientes[clientes.length - 1].id) + 1;
+    dados.id = Number(clientes[clientes.length - 1].id) + 1;
     clientes.push(dados)
     res.status(201).json(dados) 
 }

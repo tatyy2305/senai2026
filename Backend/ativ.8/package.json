@@ -1,13 +1,13 @@
 {
   "name": "ativ.8",
   "version": "1.0.0",
-  "main": "item.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "node --watch/server.js",
+    "dev": "node --watch server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "tatyy2305",
   "license": "ISC",
   "description": "",
   "dependencies": {

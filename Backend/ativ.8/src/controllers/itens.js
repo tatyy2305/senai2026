@@ -22,7 +22,6 @@ const alterar = (req, res ) => {
             item.preco = dados.preco;
             item.quantidade = dados.quantidade;
         }
-       
     });
 
     res.send("Item atualizado com sucesso");
