@@ -23,3 +23,27 @@ ORDER BY data_cadastro ASC;
 10. select id_produto,data_venda,preco_unitario_venda,forma_pagamento FROM venda
 
 11. select id_produto,data_venda,quantidade,status_venda FROM venda
+
+12.  select produto.id_produto,produto.preco_unitario,venda.forma_pagamento
+ from produto
+ INNER JOIN venda
+ 
+ WHERE venda.forma_pagamento IN ("pix","boleto");
+
+13. select id_cliente,id_produto,data_venda,quantidade FROM venda
+
+14.  SELECT id_produto,desconto_percentual,forma_pagamento,data_venda from venda
+ORDER BY data_venda ASC;
+
+15. SELECT id_produto,id_cliente,desconto_percentual,forma_pagamento,status_venda from venda
+ORDER BY forma_pagamento ASC;
+
+16. select produto.nome_produto, cliente.nome_cliente, produto.categoria, cliente.email, produto.marca, venda.forma_pagamento, venda.status_venda
+from produto 
+inner JOIN venda
+on venda.id_produto = produto.id_produto
+inner join cliente
+on cliente.id_cliente = venda.id_cliente
+WHERE venda.status_venda in ("cancelada","concluida")
+order by venda.preco_unitario_venda DESC;
+
