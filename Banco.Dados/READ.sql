@@ -17,9 +17,9 @@ O banco de dados utiliza três tabelas principais:
 | `cliente` | Armazena informações dos clientes, como nome, e-mail, cidade e estado. |
 | `venda` | Armazena informações das vendas, como produto, cliente, data, quantidade, desconto, forma de pagamento e status. |
 
-## Consultas SQL desenvolvidas
-
-### 1. Consultas de produtos
+ Consultas SQL desenvolvidas
+ 
+ Consultas de produtos
 
 1. select * from produto;
 
