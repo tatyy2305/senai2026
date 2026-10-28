@@ -1,15 +1,12 @@
- Atividade Prática de Banco de Dados MySQL — DML
- Descrição
-
+## Banco de Dados MySQL utilizando o DELETE.
 Este projeto apresenta exercícios práticos de SQL utilizando o comando DELETE, pertencente ao grupo DML (Data Manipulation Language). O objetivo é praticar a exclusão de registros em tabelas de um banco de dados relacional MySQL por meio de condições específicas.
 
-Objetivo
 Excluindo dados de tabelas utilizando o comando DELETE FROM combinado com a cláusula WHERE, garantindo que apenas os registros desejados sejam removidos.
 
-Tecnologias utilizadas
+## Tecnologias utilizadas
 MySQL — Sistema de gerenciamento de banco de dados relacional.
 SQL — Linguagem utilizada para manipulação dos dados. 
- Arquivo do projeto
+## Arquivo do projeto
 DELETE.sql — Arquivo contendo seis comandos SQL para exclusão de registros.
  Exercícios desenvolvidos
    
