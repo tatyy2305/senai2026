@@ -32,7 +32,7 @@ WHERE id_cliente = 10;
 
 Modifica o nome do cliente cujo identificador é 10.
 
-### 4. Atualizar o nome de um produto
+ 4. Atualizar o nome de um produto
 
 ```sql
 UPDATE produto
@@ -53,7 +53,7 @@ AND categoria = 'Notebook';
 
 Define o preço unitário como 4999,99 para os produtos da marca Dell cuja categoria seja Notebook.
 
-### 6. Atualizar o desconto das vendas com quantidade maior ou igual a 2
+ 6. Atualizar o desconto das vendas com quantidade maior ou igual a 2
 
 ```sql
 UPDATE venda
