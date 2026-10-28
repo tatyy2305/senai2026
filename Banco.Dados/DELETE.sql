@@ -60,6 +60,3 @@ WHERE status_venda = 'Cancelada';
 
 
 Remove as vendas cujo status seja Cancelada.
-
-
-A atividade permite praticar a exclusão de dados em um banco de dados MySQL utilizando diferentes condições. Dessa forma, reforça o conhecimento sobre a linguagem SQL e sobre o uso seguro do comando DELETE na manipulação de registros.
