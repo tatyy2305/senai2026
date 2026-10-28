@@ -1,4 +1,26 @@
-   
+SQL — Banco de Dados de Vendas
+
+- Consultar todos os registros de uma tabela.
+- Selecionar colunas específicas.
+- Ordenar os resultados em ordem crescente.
+- Filtrar registros utilizando condições.
+- Relacionar tabelas com `INNER JOIN`.
+- Consultar informações de produtos, clientes e vendas.
+
+ Estrutura do banco de dados
+
+O banco de dados utiliza três tabelas principais:
+
+| Tabela | Descrição |
+|---|---|
+| `produto` | Armazena informações sobre os produtos, como nome, marca, categoria, preço e estoque. |
+| `cliente` | Armazena informações dos clientes, como nome, e-mail, cidade e estado. |
+| `venda` | Armazena informações das vendas, como produto, cliente, data, quantidade, desconto, forma de pagamento e status. |
+
+## Consultas SQL desenvolvidas
+
+### 1. Consultas de produtos
+
 1. select * from produto;
 
 2. select nome_produto,marca,estoque FROM produto
