@@ -2,11 +2,17 @@
 require('dotenv').config();
 
 const express = require('express');
+const cors = require('cors')
 
 const app = express();
 
+const usuarioRoutes = require("./config/routes/usuario_routes.js");
+
 // Permite que a API receba JSON no corpo das requisições
+app.use(cors());
 app.use(express.json());
+
+app.use("/usuario", usuarioRoutes);
 
 // Rota de teste
 app.get('/', (req, res) => {
