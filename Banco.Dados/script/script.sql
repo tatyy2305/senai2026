@@ -11,6 +11,22 @@
 6. SELECT Produto.nome_produto,
  Venda.preco_unitario_venda,
  Venda.id_venda,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
  Venda.forma_pagamento
 FROM Produto
 INNER JOIN Venda 
